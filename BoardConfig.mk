@@ -18,6 +18,9 @@ BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
 
 BOARD_VENDOR := xiaomi
 
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/sweet-miuicamera/products/board.mk
+
 DEVICE_PATH := device/xiaomi/sweet
 
 # Architecture
