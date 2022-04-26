@@ -243,6 +243,3 @@ ro.product.property_source_order=odm,vendor,product,system_ext,system
 
 # WiFi
 wifi.aware.interface=wifi-aware0
-
-# Zygote
-zygote.critical_window.minute=10
