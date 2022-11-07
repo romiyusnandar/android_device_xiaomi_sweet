@@ -11,4 +11,9 @@ install_symlink {
     installed_location: "etc/audio/sku_sweet",
     symlink_target: "/vendor/etc",
     vendor: true,
+
+}
+
+cc_library_shared {
+    name: "libldacBT_bco",
 }
