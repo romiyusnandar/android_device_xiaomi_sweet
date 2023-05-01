@@ -185,6 +185,9 @@ SOONG_CONFIG_xiaomiSm6150Vars += \
 SOONG_CONFIG_xiaomiSm6150Vars_livedisplay_support_anti_flicker ?= false
 SOONG_CONFIG_xiaomiSm6150Vars_livedisplay_support_sunlight_enhancement ?= true
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Trust
 TARGET_TRUST_USB_CONTROL_PATH := /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled
 TARGET_TRUST_USB_CONTROL_ENABLE := 0
