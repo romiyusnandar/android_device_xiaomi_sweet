@@ -68,8 +68,6 @@ system_ext/framework/audiosphere.jar
 -vendor/lib/libspkrprot.so
 
 # Awinic firmware
-vendor/firmware/aw8624_haptic.bin
-vendor/firmware/aw8624_rtp.bin
 vendor/firmware/awinic/aw882xx_pid_1852_acf.bin
 vendor/firmware/awinic/aw882xx_pid_1852_monitor.bin
 vendor/firmware/awinic/aw882xx_pid_2032_acf.bin
@@ -78,6 +76,8 @@ vendor/firmware/awinic/aw882xx_rcv_reg_l.bin
 vendor/firmware/awinic/aw882xx_rcv_reg_r.bin
 vendor/firmware/awinic/aw882xx_spk_reg_l.bin
 vendor/firmware/awinic/aw882xx_spk_reg_r.bin
+vendor/firmware/aw8624_haptic.bin
+vendor/firmware/aw8624_rtp.bin
 vendor/firmware/osc_rtp_24K_5s.bin
 
 # Batterysecret
@@ -177,6 +177,11 @@ vendor/lib64/mibokeh_712_opencl.bin
 -vendor/lib64/libarcsoft_super_night_raw.so
 
 # Camera-components
+vendor/lib64/camera/components/etc/morpho_lowlight4.0.xml
+vendor/lib64/camera/components/etc/morpho_lowlight4.0_3hdr.xml
+vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
+vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
+vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 -vendor/lib64/camera/components/com.altek.node.depurple.so
 -vendor/lib64/camera/components/com.altek.node.distortioncorrection.so
 -vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so
@@ -231,11 +236,6 @@ vendor/lib64/mibokeh_712_opencl.bin
 -vendor/lib64/camera/components/com.xiaomi.node.mifragment.so
 -vendor/lib64/camera/components/com.xiaomi.node.mimovie.so
 -vendor/lib64/camera/components/com.xiaomi.node.misegment.so
-vendor/lib64/camera/components/etc/morpho_lowlight4.0.xml
-vendor/lib64/camera/components/etc/morpho_lowlight4.0_3hdr.xml
-vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
-vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
-vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 -vendor/lib64/camera/components/libdepthmapwrapper.so
 -vendor/lib64/camera/components/libmmcamera_cac3.so
 
@@ -426,8 +426,8 @@ vendor/etc/init/dpmQmiMgr.rc
 
 # DRM
 -vendor/bin/qseecomd
-vendor/etc/gpfspath_oem_config.xml
 vendor/etc/init/qseecomd.rc
+vendor/etc/gpfspath_oem_config.xml
 -vendor/lib64/libGPreqcancel.so
 -vendor/lib64/libGPreqcancel_svc.so
 -vendor/lib64/libQSEEComAPI.so
@@ -436,8 +436,8 @@ vendor/etc/init/qseecomd.rc
 -vendor/lib64/libdrmtime.so
 -vendor/lib64/libhdcpsrm.so
 -vendor/lib64/libminkdescriptor.so
--vendor/lib64/liboemcrypto.so
 -vendor/lib64/libminksocket.so
+-vendor/lib64/liboemcrypto.so
 -vendor/lib64/libops.so
 -vendor/lib64/libqisl.so
 -vendor/lib64/librpmb.so
@@ -450,8 +450,8 @@ vendor/etc/init/qseecomd.rc
 -vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
--vendor/lib64/libwvhidl.so
 -vendor/lib64/mediadrm/libwvdrmengine.so
+-vendor/lib64/libwvhidl.so
 
 # DSP
 -vendor/bin/dspservice
@@ -724,8 +724,8 @@ system_ext/etc/permissions/qcrilhook.xml
 system_ext/framework/qcrilhook.jar
 system_ext/framework/qti-telephony-common.jar
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
--vendor/bin/adpl
 -vendor/bin/hw/qcrild
+-vendor/bin/adpl
 -vendor/bin/netmgrd
 -vendor/bin/qti
 -vendor/bin/rmt_storage
@@ -781,7 +781,6 @@ vendor/etc/init/vendor.qti.tftp.rc
 -vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 -vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 -vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-vendor/radio/qcril_database/qcril.db
 vendor/radio/qcril_database/upgrade/0_initial.sql
 vendor/radio/qcril_database/upgrade/1_version_intro.sql
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql
