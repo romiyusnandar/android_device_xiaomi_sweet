@@ -45,6 +45,10 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 # Audio ACDB - V12.5.2.0.RKFINXM-release-keys
 vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb|b34ec442b87c1acb88dafd55fd86e77acbb003a3
 
+# Audio (spatializer) - from cheetah-user 14 UQ1A.240205.002
+vendor/lib/soundfx/libspatialaudio.so|1903f9c98b38728970ddd12094fa15d96e9d2a5b
+vendor/lib64/soundfx/libspatialaudio.so|0242ecf82a322d6654d859123d4dd221c3c2bf12
+
 # Audio FX modules
 system_ext/etc/permissions/audiosphere.xml
 system_ext/framework/audiosphere.jar
