@@ -4,7 +4,8 @@ ifneq ($(BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE),)
 GNSS_CFLAGS := \
     -Werror \
     -Wno-error=reorder \
-    -Wno-undefined-bool-conversion
+    -Wno-undefined-bool-conversion \
+    -Wno-deprecated-volatile
 
 LOCAL_PATH := $(call my-dir)
 include $(call all-makefiles-under,$(LOCAL_PATH))
