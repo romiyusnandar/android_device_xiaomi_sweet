@@ -118,7 +118,7 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 -vendor/lib64/libalhLDC.so
 -vendor/lib64/libbeauty_face_interface.so
 -vendor/lib64/libc++_shared.so
--vendor/lib64/libcamera_dirty.so
+-vendor/lib64/libcamera_dirty.so|4aa4bbb7014ec1d61757ed53668c7c10f7f8224a
 -vendor/lib64/libcamera_nn_stub.so
 -vendor/lib64/libcamera_scene.so
 -vendor/lib64/libcamxfdalgov7.so
