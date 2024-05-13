@@ -28,7 +28,8 @@ PRODUCT_COPY_FILES += \
 # Device Settings
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer \
-    XiaomiDolby
+    XiaomiDolby \
+    XiaomiParts
 
 # Display
 PRODUCT_COPY_FILES += \
