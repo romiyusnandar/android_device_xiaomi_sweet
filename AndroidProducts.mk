@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/orion_sweet.mk
-
-COMMON_LUNCH_CHOICES := \
-    orion_sweet-user \
-    orion_sweet-userdebug \
-    orion_sweet-eng
