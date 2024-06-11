@@ -401,7 +401,6 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 -vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
 # Display
--vendor/lib64/libdisplayqos.so
 -vendor/lib64/libhdr_tm.so
 -vendor/lib64/libqseed3.so
 -vendor/lib64/libsdm-color.so
@@ -523,6 +522,31 @@ vendor/gpu/kbc/unified_ksqs.bin|8f77dc004796d58acb959e78f4994c5d6b90baef
 -vendor/lib64/libllvm-glnext.so|b5e64b89d96f9cb16df8ddc6ea4c85b6aa6cde5e
 -vendor/lib64/libllvm-qcom.so|1388077970a5778197053286cf8a827d84a2ce69
 -vendor/lib64/libllvm-qgl.so|01fc798c34c67131c06b714cb0614f74d85d9e2d
+
+# Graphics (Postprocessing) - from LA.UM.9.1.r1-12900-SMxxx0.0
+vendor/bin/hw/vendor.display.color@1.0-service|91e9e25ec4d64c4a7d5261899ca2cdb9cf29b695
+vendor/bin/ppd|8bb89d7a1c3fc8fd93796f70842d3c94d6393f86
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib/libdisp-aba.so|539ac8ff89fd51fa0ce8a11d9c476843291392bc
+vendor/lib/libdisplayqos.so|1c01c72ca8e3ce28d3b0fb716e4d7ed21af44875
+vendor/lib/libdpps.so|1bb5671731090c152320f5aa5811e6fb5f380618
+vendor/lib/vendor.display.color@1.0.so|1d72874b7202e73c82f8c2289630dd2d1da9f179
+vendor/lib/vendor.display.color@1.1.so|92790fb471d20ed760ebd8b09686ca98c0d4ba1f
+vendor/lib/vendor.display.color@1.2.so|9a5d6d171edd03b0c58ea29696aa2a92c9a0c23d
+vendor/lib/vendor.display.color@1.3.so|cf8d57bb11d74c67a943ed4c159bd4e46ee33836
+vendor/lib/vendor.display.color@1.4.so|937d140c33b71a4719fd511383b7221df35754a2
+vendor/lib/vendor.display.color@1.5.so|29aa6d4393b45d43787467a29327019ff2e08104
+vendor/lib/vendor.display.postproc@1.0.so|30413585059bf990c40b659c38dbfd102acb8605
+vendor/lib64/libdisp-aba.so|44993853ff9d4340e856e6f53d802f10372442d3
+vendor/lib64/libdisplayqos.so|5548732c916e629f18f45ce257ce843b679a136a
+vendor/lib64/libdpps.so|a9d4e3806a433b9dfc7cb49556efa9fc65389e75
+vendor/lib64/vendor.display.color@1.0.so|09cb45881528c6d4675754c88c108f30dd1da12a
+vendor/lib64/vendor.display.color@1.1.so|3cf0d256372bd418462326e6067b4e1213226194
+vendor/lib64/vendor.display.color@1.2.so|8184e5d3e404864b1a1518b4d4e2012a5839660b
+vendor/lib64/vendor.display.color@1.3.so|bf47fb1402d767d466b8c979bc977041e6b68753
+vendor/lib64/vendor.display.color@1.4.so|45ecd22ef8753543a92a853aaddc9bd43fa95c1f
+vendor/lib64/vendor.display.color@1.5.so|4e6d3f0f86b991a19824228fe18c956b45392142
+vendor/lib64/vendor.display.postproc@1.0.so|86ef4e868f7abb95d555a4d086a8c4193920803f
 
 # Graphics firmware
 vendor/firmware/a615_zap.b00
