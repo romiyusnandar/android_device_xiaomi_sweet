@@ -39,3 +39,5 @@ wifi.interface=wlan0
 
 # HWUI
 debug.hwui.skia_atrace_enabled=false
+debug.hwui.skia_tracing_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false

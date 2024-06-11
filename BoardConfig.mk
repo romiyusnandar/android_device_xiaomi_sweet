@@ -82,6 +82,7 @@ DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
+USE_OPENGL_RENDERER := true
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
