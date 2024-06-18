@@ -17,6 +17,7 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/hidl/framework_compatibility_matrix.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/sweet.config
