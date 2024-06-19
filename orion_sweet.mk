@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common Orion stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-ORION_MAINTAINER := sirNewbies
+ORION_MAINTAINER := RomiYusnandar
 ORION_MAINTAINER_LINK := https://t.me/romiyusna
 ORION_GAPPS := true
 TARGET_ENABLE_BLUR := true
