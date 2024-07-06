@@ -36,6 +36,7 @@ ro.recovery.ui.margin_height=48
 
 # WiFi
 wifi.interface=wlan0
+wifi.supplicant_scan_interval=120
 
 # HWUI
 debug.hwui.skia_atrace_enabled=false
