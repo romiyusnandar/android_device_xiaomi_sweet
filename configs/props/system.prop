@@ -52,3 +52,6 @@ pm.sleep_mode=1
 
 # Logs
 persist.log.tag.OpenGLRenderer=S
+
+# Fling
+persist.vendor.qti.inputopts.movetouchslop=0.6
