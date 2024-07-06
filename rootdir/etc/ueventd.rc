@@ -150,3 +150,6 @@ firmware_directories /vendor/firmware_mnt/image/
 
 # Charger
 /sys/class/power_supply/battery input_suspend   0660    system  system
+
+# Double tap
+/sys/devices/virtual/touch/touch_dev/double_tap 0660 system input
