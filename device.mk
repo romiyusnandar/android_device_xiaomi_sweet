@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2020-2023 The LineageOS Project
 #
@@ -320,6 +321,10 @@ PRODUCT_PACKAGES += \
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.1-service.xiaomi_sm6150
+
+
+# Basic Call Recording
+$(call inherit-product, vendor/bcr/bcr.mk)
 
 # Media
 PRODUCT_PACKAGES += \
