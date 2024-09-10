@@ -223,7 +223,6 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_common.vendor \
     libmm-omxcore \
     libsfplugin_ccodec_utils.vendor \
-    libstagefright_foundation-v33 \
     libstagefright_softomx_plugin.vendor:32 \
     libstagefrighthw
 
