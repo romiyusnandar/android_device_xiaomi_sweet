@@ -277,6 +277,9 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+		$(LOCAL_PATH)/overlay-orion
+
 PRODUCT_PACKAGES += \
     CarrierConfigResSweet \
     FrameworksResSweet \
