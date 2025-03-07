@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="device_processor_info">Snapdragon 732G</string>
+    <string name="device_camera_info">Front 16MP / Rear 108MP + 8MP + 5MP + 2MP</string>
+
+</resources>
