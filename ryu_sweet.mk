@@ -31,6 +31,9 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_QUICK_TAP := true
 USE_PIXEL_CHARGER := true
 
+# Bypass charging node /sys/class/power_supply/battery/input_suspend
+BYPASS_CHARGE_SUPPORTED := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="sweet_global-user 13 TKQ1.221013.002 V14.0.9.0.TKFMIXM release-keys" \
     BuildFingerprint=Redmi/sweet_global/sweet:13/TKQ1.221013.002/V14.0.9.0.TKFMIXM:user/release-keys
